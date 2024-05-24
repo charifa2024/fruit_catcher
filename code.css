@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    width: 700px;
+    height: 500px;
+    background-color: lightpink;
+    position: relative;
+}
+.danger_line{
+    width:700px ;
+    height: 20px;
+    background-color: lightskyblue;
+    position: absolute;
+    bottom: 0;
+}
+.basket{
+    width: 70px;
+    height: 50px;
+    background-color: violet;
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+
+}
+
+.fr{
+    width: 30px;
+    height: 30px;
+    background-color: lightgreen;
+    position: absolute;
+}
